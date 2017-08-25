@@ -1,5 +1,7 @@
 ﻿using System;
-using NAudio.Wave;
+using NAudio.Core.Wave;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveStreams;
 
 namespace NAudioWpfDemo.DrumMachineDemo
 {

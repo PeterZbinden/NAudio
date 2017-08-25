@@ -1,11 +1,14 @@
 using System.Collections.Generic;
 using System.IO;
 using NAudio.Utils;
-using NAudio.Wave;
 using NUnit.Framework;
 using System.Diagnostics;
 using System;
-using NAudio.FileFormats.Wav;
+using NAudio.Core.FileFormats.Wav;
+using NAudio.Core.Utils;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveStreams;
+using NAudio.Wave;
 
 namespace NAudioTests.WaveStreams
 {

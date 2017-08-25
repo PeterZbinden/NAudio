@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Linq;
-using NAudio.Wave;
 using NSpeex;
 using System.Diagnostics;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 
 namespace NAudioDemo.NetworkChatDemo
 {

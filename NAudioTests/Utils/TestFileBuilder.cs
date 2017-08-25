@@ -1,8 +1,9 @@
 ﻿using System;
 using System.IO;
-using NAudio.MediaFoundation;
-using NAudio.Wave;
-using NAudio.Wave.SampleProviders;
+using NAudio.Core.MediaFoundation;
+using NAudio.Core.Wave;
+using NAudio.Core.Wave.SampleProviders;
+using NAudio.Core.Wave.WaveOutputs;
 
 namespace NAudioTests.Utils
 {

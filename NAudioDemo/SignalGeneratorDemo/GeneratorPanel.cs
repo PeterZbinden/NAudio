@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Globalization;
 using System.Windows.Forms;
+using NAudio.Core.Utils;
+using NAudio.Core.Wave;
+using NAudio.Core.Wave.SampleProviders;
+using NAudio.Core.Wave.WaveOutputs;
 using NAudio.Utils;
 using NAudio.Wave;
-using NAudio.Wave.SampleProviders;
 
 namespace NAudioDemo.SignalGeneratorDemo
 {

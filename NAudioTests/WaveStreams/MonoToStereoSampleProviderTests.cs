@@ -1,5 +1,5 @@
 using System;
-using NAudio.Wave;
+using NAudio.Core.Wave;
 using NUnit.Framework;
 
 namespace NAudioTests.WaveStreams

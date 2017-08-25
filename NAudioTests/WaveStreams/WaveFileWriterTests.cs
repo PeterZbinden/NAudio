@@ -1,8 +1,11 @@
 ﻿using System;
 using NUnit.Framework;
-using NAudio.Wave;
 using System.IO;
+using NAudio.Core.Utils;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveStreams;
 using NAudio.Utils;
+using NAudio.Wave;
 using NAudioTests.Utils;
 
 namespace NAudioTests.WaveStreams

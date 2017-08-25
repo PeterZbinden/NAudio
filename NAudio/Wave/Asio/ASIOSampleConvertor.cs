@@ -1,4 +1,6 @@
 ﻿using System;
+using NAudio.Core.Wave.Asio;
+using NAudio.Core.Wave.WaveFormats;
 
 namespace NAudio.Wave.Asio
 {

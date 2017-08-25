@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-using NAudio.Wave;
+using NAudio.Core.Wave.WaveFormats;
 
 namespace NAudioDemo.NetworkChatDemo
 {

@@ -169,6 +169,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\NAudio.Core\NAudio.Core.csproj">
+      <Project>{CCB89B27-C185-464E-ABE2-6836BD64D3EC}</Project>
+      <Name>NAudio.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\NAudio\NAudio.csproj">
       <Project>{DA4F02E3-0B5E-42CD-B8D9-5583FA51D66E}</Project>
       <Name>NAudio</Name>

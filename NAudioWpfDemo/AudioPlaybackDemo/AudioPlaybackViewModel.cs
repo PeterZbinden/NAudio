@@ -6,7 +6,6 @@ using System.ComponentModel;
 using System.Windows.Input;
 using Microsoft.Win32;
 using System.Windows;
-using NAudio.Wave;
 using NAudioWpfDemo.AudioPlaybackDemo;
 using NAudioWpfDemo.ViewModel;
 

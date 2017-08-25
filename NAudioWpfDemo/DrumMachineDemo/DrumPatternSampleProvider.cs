@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using NAudio.Wave;
-using NAudio.Midi;
-using NAudio.Wave.SampleProviders;
+using NAudio.Core.Wave.SampleProviders;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 
 namespace NAudioWpfDemo.DrumMachineDemo
 {

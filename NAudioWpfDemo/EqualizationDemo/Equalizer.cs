@@ -1,5 +1,6 @@
-using NAudio.Dsp;
-using NAudio.Wave;
+using NAudio.Core.Dsp;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 
 namespace NAudioWpfDemo.EqualizationDemo
 {

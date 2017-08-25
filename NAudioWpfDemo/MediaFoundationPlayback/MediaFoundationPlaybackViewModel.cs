@@ -4,7 +4,7 @@ using System.Collections.ObjectModel;
 using System.Windows.Forms;
 using System.Windows.Input;
 using System.Windows.Threading;
-using NAudio.MediaFoundation;
+using NAudio.Core.Wave.WaveOutputs;
 using NAudio.Wave;
 using NAudioWpfDemo.ViewModel;
 using OpenFileDialog = Microsoft.Win32.OpenFileDialog;

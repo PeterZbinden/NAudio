@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Linq;
 using System.Windows.Forms;
+using NAudio.Core.Wave.WaveOutputs;
 using NAudio.Wave;
+using NAudio.Wave.WaveOutputs;
 
 namespace NAudioDemo.AsioDirectDemo
 {

@@ -2,8 +2,8 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 using System.Text;
-using NAudio.Midi;
 using System.ComponentModel.Composition;
+using NAudio.Core.Midi;
 
 namespace AudioFileInspector
 {

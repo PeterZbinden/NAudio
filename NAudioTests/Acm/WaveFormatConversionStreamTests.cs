@@ -1,9 +1,10 @@
 ﻿using System;
 using NUnit.Framework;
-using NAudio.Wave;
-using NAudio.Wave.Compression;
 using System.Diagnostics;
 using System.Linq;
+using NAudio.Core.Wave.Compression;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Wave;
 using NAudioTests.Utils;
 
 namespace NAudioTests.Acm

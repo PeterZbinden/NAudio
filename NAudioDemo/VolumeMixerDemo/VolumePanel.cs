@@ -6,10 +6,10 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using NAudio.CoreAudioApi;
 using System.Diagnostics;
-using NAudio.CoreAudioApi.Interfaces;
 using System.Media;
+using NAudio.Core.CoreAudioApi;
+using NAudio.Core.CoreAudioApi.Interfaces;
 
 namespace NAudioDemo.VolumeMixerDemo
 {

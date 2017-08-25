@@ -2,8 +2,8 @@
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using NAudio.Core.Wave.SampleProviders;
 using NAudio.Wave;
-using NAudio.Wave.SampleProviders;
 using NUnit.Framework;
 
 namespace NAudioTests.WaveStreams

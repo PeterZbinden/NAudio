@@ -14,7 +14,7 @@
             polygonWaveFormControl.AddValue(max, min);
         }
 
-        public void OnFftCalculated(NAudio.Dsp.Complex[] result)
+        public void OnFftCalculated(NAudio.Core.Dsp.Complex[] result)
         {
             // nothing to do
         }

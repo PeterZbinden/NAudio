@@ -4,6 +4,8 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.ComponentModel.Composition;
+using NAudio.Core.FileFormats.Mp3;
+using NAudio.Core.Wave.WaveFormats;
 using NAudio.Utils;
 using NAudio.Wave;
 

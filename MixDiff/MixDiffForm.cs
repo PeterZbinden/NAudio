@@ -6,8 +6,10 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using System.Xml;
-using NAudio.Wave;
 using MarkHeath.AudioUtils.Properties;
+using NAudio.Core.Wave.WaveOutputs;
+using NAudio.Wave.WaveOutputs;
+using NAudio.Wave.WaveStreams;
 
 namespace MarkHeath.AudioUtils
 {

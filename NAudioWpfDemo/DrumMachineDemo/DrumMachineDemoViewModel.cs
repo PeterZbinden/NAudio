@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Windows.Input;
-using NAudio.Wave;
-using NAudio.Wave.SampleProviders;
 using System.ComponentModel;
+using NAudio.Core.Wave;
+using NAudio.Core.Wave.WaveOutputs;
+using NAudio.Wave.WaveOutputs;
 using NAudioWpfDemo.ViewModel;
 
 namespace NAudioWpfDemo.DrumMachineDemo

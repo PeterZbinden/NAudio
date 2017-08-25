@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using NAudio.Core.Wave;
+using NAudio.Core.Wave.SampleProviders;
+using NAudio.Core.Wave.WaveStreams;
 using NAudio.Wave;
-using NAudio.Wave.SampleProviders;
 using NUnit.Framework;
 
 namespace NAudioTests.WaveStreams

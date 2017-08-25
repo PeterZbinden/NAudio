@@ -3,7 +3,10 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 using NAudio.Wave;
+using NAudio.Wave.WaveOutputs;
 
 namespace NAudioDemo.AsioRecordingDemo
 {

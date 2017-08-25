@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using NUnit.Framework;
-using NAudio.CoreAudioApi;
 using System.Diagnostics;
+using NAudio.Core.CoreAudioApi;
 using NAudioTests.Utils;
 
 namespace NAudioTests.Wasapi

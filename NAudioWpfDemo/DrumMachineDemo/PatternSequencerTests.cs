@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using NUnit.Framework;
 using System.Diagnostics;
-using NAudio.Wave;
+using NAudio.Core.Wave.WaveFormats;
 
 namespace NAudioWpfDemo.DrumMachineDemo
 {

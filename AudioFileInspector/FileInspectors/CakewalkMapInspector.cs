@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using NAudio.FileFormats.Map;
 using System.ComponentModel.Composition;
+using NAudio.Core.FileFormats.Map;
 
 namespace AudioFileInspector
 {

@@ -1,8 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using NAudio.Core.Wave.MmeInterop;
+using NAudio.Core.Wave.WaveFormats;
 
-namespace NAudio.Wave
+namespace NAudio.Wave.MmeInterop
 {
     /// <summary>
     /// Wave Callback Info

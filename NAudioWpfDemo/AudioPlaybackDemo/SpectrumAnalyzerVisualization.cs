@@ -17,7 +17,7 @@ namespace NAudioWpfDemo.AudioPlaybackDemo
             // nothing to do
         }
 
-        public void OnFftCalculated(NAudio.Dsp.Complex[] result)
+        public void OnFftCalculated(NAudio.Core.Dsp.Complex[] result)
         {
             spectrumAnalyser.Update(result);
         }

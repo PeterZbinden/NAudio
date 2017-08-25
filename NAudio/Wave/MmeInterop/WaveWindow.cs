@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using System.Windows.Forms;
+using NAudio.Core.Wave.MmeInterop;
 
-namespace NAudio.Wave
+namespace NAudio.Wave.MmeInterop
 {
     class WaveWindowNative : System.Windows.Forms.NativeWindow
     {

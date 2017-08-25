@@ -1,4 +1,5 @@
 ﻿using System;
+using NAudio.Core.Wave.WaveFormats;
 using NAudio.Wave;
 
 namespace NAudioTests.Utils

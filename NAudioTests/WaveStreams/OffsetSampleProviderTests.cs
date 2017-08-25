@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-using NAudio.Wave.SampleProviders;
+using NAudio.Core.Wave.SampleProviders;
 using NAudioTests.Utils;
 using NUnit.Framework;
 

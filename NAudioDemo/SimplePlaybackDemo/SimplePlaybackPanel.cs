@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Linq;
 using System.Windows.Forms;
-using NAudio.Wave;
 using System.Diagnostics;
+using NAudio.Core.Wave.WaveOutputs;
+using NAudio.Wave;
+using NAudio.Wave.MmeInterop;
+using NAudio.Wave.WaveOutputs;
 
 namespace NAudioDemo.SimplePlaybackDemo
 {

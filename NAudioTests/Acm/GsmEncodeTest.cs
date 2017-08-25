@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Linq;
 using NUnit.Framework;
-using NAudio.Wave;
 using System.IO;
-using NAudio.Wave.SampleProviders;
+using NAudio.Core.Wave;
+using NAudio.Core.Wave.SampleProviders;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveStreams;
+using NAudio.Wave;
 
 namespace NAudioTests.Acm
 {

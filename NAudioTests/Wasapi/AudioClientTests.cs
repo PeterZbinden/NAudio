@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 using NUnit.Framework;
-using NAudio.CoreAudioApi;
-using NAudio.Wave;
 using System.Diagnostics;
+using NAudio.Core.CoreAudioApi;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.CoreAudioApi;
 using NAudioTests.Utils;
 
 namespace NAudioTests.Wasapi

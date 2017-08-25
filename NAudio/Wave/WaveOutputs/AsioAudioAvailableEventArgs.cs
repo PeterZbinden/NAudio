@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using NAudio.Wave.Asio;
+using NAudio.Core.Wave.Asio;
 
-namespace NAudio.Wave
+namespace NAudio.Wave.WaveOutputs
 {
     /// <summary>
     /// Raised when ASIO data has been recorded.

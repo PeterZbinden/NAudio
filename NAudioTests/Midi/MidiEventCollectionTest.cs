@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using NAudio.Core.Midi;
 using NUnit.Framework;
-using NAudio.Midi;
 
 namespace NAudioTests.Midi
 {

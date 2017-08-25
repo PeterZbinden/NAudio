@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
+using NAudio.Core.Wave;
+using NAudio.Core.Wave.SampleProviders;
+using NAudio.Core.Wave.WaveOutputs;
 using NAudio.Wave;
-using NAudio.Wave.SampleProviders;
 using NAudioDemo.Utils;
 
 namespace NAudioDemo.AudioPlaybackDemo

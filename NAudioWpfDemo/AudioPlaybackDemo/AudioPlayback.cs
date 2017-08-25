@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Windows;
+using NAudio.Core.Wave;
+using NAudio.Core.Wave.WaveOutputs;
 using NAudio.Wave;
+using NAudio.Wave.WaveOutputs;
 
 namespace NAudioWpfDemo
 {

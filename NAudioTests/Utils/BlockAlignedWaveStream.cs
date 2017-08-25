@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using NAudio.Core.Wave.WaveFormats;
 using NAudio.Wave;
 
 namespace NAudioTests.Utils

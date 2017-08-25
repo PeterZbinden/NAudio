@@ -1,8 +1,10 @@
 ﻿using System;
-using NAudio.Wave.Asio;
 using System.Threading;
+using NAudio.Core.Wave.Asio;
+using NAudio.Core.Wave.WaveOutputs;
+using NAudio.Wave.Asio;
 
-namespace NAudio.Wave
+namespace NAudio.Wave.WaveOutputs
 {
     /// <summary>
     /// ASIO Out Player. New implementation using an internal C# binding.

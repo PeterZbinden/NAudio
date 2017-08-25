@@ -3,6 +3,8 @@ using System.ComponentModel;
 using System.Linq;
 using System.Windows.Input;
 using Microsoft.Win32;
+using NAudio.Core.Wave;
+using NAudio.Core.Wave.WaveOutputs;
 using NAudio.Wave;
 using NAudioWpfDemo.ViewModel;
 

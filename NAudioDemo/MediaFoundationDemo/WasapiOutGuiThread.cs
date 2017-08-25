@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
-using NAudio.CoreAudioApi;
+using NAudio.Core.CoreAudioApi;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 using NAudio.Wave;
 
 namespace NAudioDemo.MediaFoundationDemo

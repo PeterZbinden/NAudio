@@ -1,7 +1,11 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 using System.Threading;
-using NAudio.Mixer;
+using NAudio.Core.Mixer;
+using NAudio.Core.Wave.MmeInterop;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
+using NAudio.Wave.MmeInterop;
 
 // ReSharper disable once CheckNamespace
 namespace NAudio.Wave

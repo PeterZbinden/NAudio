@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using NUnit.Framework;
+using NAudio.Core.Wave.MmeInterop;
 using NAudio.Wave;
+using NAudio.Wave.WaveOutputs;
+using NUnit.Framework;
 
 namespace NAudioTests
 {

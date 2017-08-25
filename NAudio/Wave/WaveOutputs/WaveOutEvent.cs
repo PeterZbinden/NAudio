@@ -2,6 +2,11 @@
 using System.Diagnostics;
 using System.Threading;
 using System.Runtime.InteropServices;
+using NAudio.Core.Wave.MmeInterop;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
+using NAudio.Core.Wave.WaveStreams;
+using NAudio.Wave.WaveOutputs;
 
 // ReSharper disable once CheckNamespace
 namespace NAudio.Wave
@@ -266,7 +271,7 @@ namespace NAudio.Wave
         }
 
         /// <summary>
-        /// Gets a <see cref="Wave.WaveFormat"/> instance indicating the format the hardware is using.
+        /// Gets a <see cref="WaveFormat"/> instance indicating the format the hardware is using.
         /// </summary>
         public WaveFormat OutputWaveFormat
         {

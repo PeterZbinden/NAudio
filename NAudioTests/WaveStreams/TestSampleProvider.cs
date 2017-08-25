@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
-using NAudio.Wave;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 
 namespace NAudioTests.WaveStreams
 {

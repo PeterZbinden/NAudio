@@ -1,5 +1,6 @@
 ﻿using System.Windows.Forms;
-using NAudio.Wave;
+using NAudio.Core.Wave.MmeInterop;
+using NAudio.Wave.WaveOutputs;
 
 namespace NAudioDemo.AudioPlaybackDemo
 {

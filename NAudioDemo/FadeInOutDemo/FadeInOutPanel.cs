@@ -6,9 +6,11 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using NAudio.Wave;
 using System.Diagnostics;
-using NAudio.Wave.SampleProviders;
+using NAudio.Core.Wave;
+using NAudio.Core.Wave.SampleProviders;
+using NAudio.Core.Wave.WaveOutputs;
+using NAudio.Wave;
 
 namespace NAudioDemo.FadeInOutDemo
 {

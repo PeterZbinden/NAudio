@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 using NUnit.Framework;
-using NAudio.Mixer;
 using System.Diagnostics;
 using NAudio;
-using NAudio.Wave;
+using NAudio.Core.Mixer;
+using NAudio.Core.Wave.WaveInputs;
 
 namespace NAudioTests
 {

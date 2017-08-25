@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
-using NAudio.Midi;
+using NAudio.Core.Midi;
 
 namespace NAudioDemo.MidiInDemo
 {

@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Input;
-using NAudio.CoreAudioApi.Interfaces;
-using NAudio.MediaFoundation;
+using NAudio.Core.CoreAudioApi;
+using NAudio.Core.MediaFoundation;
+using NAudio.Core.Utils;
 using NAudio.Utils;
 using NAudioWpfDemo.ViewModel;
 

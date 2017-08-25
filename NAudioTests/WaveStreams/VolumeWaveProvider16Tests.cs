@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using NUnit.Framework;
-using NAudio.Wave;
 using Moq;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveProviders;
 
 namespace NAudioTests.WaveStreams
 {

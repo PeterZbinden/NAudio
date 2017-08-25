@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 using NUnit.Framework;
-using NAudio.Wave;
 using NAudioTests.Utils;
 using System.IO;
+using NAudio.Core.Wave.WaveStreams;
+using NAudio.Wave;
 
 namespace NAudioTests.WaveStreams
 {

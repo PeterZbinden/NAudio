@@ -1,10 +1,11 @@
 ﻿using System;
 using NUnit.Framework;
-using NAudio.FileFormats.Mp3;
-using NAudio.Wave;
-using NAudio.Dmo;
 using System.Diagnostics;
 using System.IO;
+using NAudio.Core.Dmo;
+using NAudio.Core.FileFormats.Mp3;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Wave;
 using NAudioTests.Utils;
 
 namespace NAudioTests.Dmo

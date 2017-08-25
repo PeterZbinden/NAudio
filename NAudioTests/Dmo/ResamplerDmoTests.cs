@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using NUnit.Framework;
-using NAudio.Dmo;
-using NAudio.Wave;
 using System.Diagnostics;
+using NAudio.Core.Dmo;
+using NAudio.Core.Wave.WaveFormats;
 using NAudioTests.Utils;
 
 namespace NAudioTests.Dmo

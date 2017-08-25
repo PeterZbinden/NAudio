@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Text;
 using NAudioTests.Utils;
 using NUnit.Framework;
-using NAudio.Wave.SampleProviders;
-using NAudio.Wave;
 using System.Diagnostics;
 using Moq;
+using NAudio.Core.Wave.SampleProviders;
+using NAudio.Core.Wave.WaveFormats;
+using NAudio.Core.Wave.WaveOutputs;
 
 namespace NAudioTests.WaveStreams
 {

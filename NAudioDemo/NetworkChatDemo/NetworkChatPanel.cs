@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
-using NAudio.Wave;
 using System.Net.Sockets;
 using System.Threading;
 using System.Net;
+using NAudio.Core.Wave.MmeInterop;
+using NAudio.Core.Wave.WaveOutputs;
+using NAudio.Wave;
+using NAudio.Wave.WaveOutputs;
 using NAudioDemo.Utils;
 
 namespace NAudioDemo.NetworkChatDemo
